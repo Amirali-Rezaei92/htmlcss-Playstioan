@@ -20,12 +20,10 @@ main {
   height: 50px;
   background-image: url(/img-5/returnal-hero-banner-logo.png);
   position: absolute;
-  transform: translateX(20px) translateY(-300px);
+  top: 250px;
+  left: 30px;
   background-position: center;
   background-size: contain;
-}
-.h1-returinal {
-  transform: translateY(-230px) translateX(10px);
 }
 #image-list-game:hover {
   border: 3px solid rgb(0, 145, 255);
@@ -60,6 +58,14 @@ main {
   background-size: contain;
 }
 
+
+
+#Button-menu:hover{
+  transition: 0.5s ease;
+  width: 100%;
+  height: 400px;
+  background-color: white;
+}
 
 
 
