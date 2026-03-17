@@ -4,6 +4,84 @@ body {
 main {
   padding-top: 30px;
 }
+
+
+nav {
+    margin-top: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    z-index: 1000;
+}
+
+nav .nav-bar {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-bar .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+}
+
+.nav-links .menu-item {
+    position: relative;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.menu-item .arrow {
+  
+    width: 10px;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.menu-item:hover .arrow {
+    transform: rotate(180deg);
+}
+
+
+.menu-box {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100vw; 
+    height: 0;
+    background-color: white;
+    overflow: hidden;
+    transition: height 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    z-index: 999;
+}
+
+.menu:hover .menu-box {
+    height: 200px; 
+}
+
+
+
+
+
+
+
 .img-logo {
   width: 60px;
   height: 50px;
@@ -60,12 +138,8 @@ main {
 
 
 
-#Button-menu:hover{
-  transition: 0.5s ease;
-  width: 100%;
-  height: 400px;
-  background-color: white;
-}
+
+
 
 
 
