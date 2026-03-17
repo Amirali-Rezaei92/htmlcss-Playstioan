@@ -1,44 +1,60 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-main{
-    padding-top:30px;
+main {
+  padding-top: 30px;
 }
-.img-logo{
-    width: 60px;
-    height: 50px;
-    margin: 0;
-    
+.img-logo {
+  width: 60px;
+  height: 50px;
+  margin: 0;
 }
-.img-baner-1{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    object-position: center;
+.img-baner-1 {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
 }
-.img-returnal{
-    width:220px;
-    height:50px;
-    background-image:url(/img-5/returnal-hero-banner-logo.png);
-    position: absolute;
-    transform: translateX(20px)translateY(-300px);
-    background-position: center;
-    background-size:contain;
+.img-returnal {
+  width: 220px;
+  height: 50px;
+  background-image: url(/img-5/returnal-hero-banner-logo.png);
+  position: absolute;
+  transform: translateX(20px) translateY(-300px);
+  background-position: center;
+  background-size: contain;
 }
-.h1-returinal{
-    transform: translateY(-230px)translateX(10px);
+.h1-returinal {
+  transform: translateY(-230px) translateX(10px);
 }
-#image-list-game:hover{
-    border: 3px solid rgb(0, 145, 255);
-    border-radius: 20px;
-    transition:  0.1s ease;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-    padding: 1px;
-    transform: scale(1.05);
+#image-list-game:hover {
+  border: 3px solid rgb(0, 145, 255);
+  border-radius: 20px;
+  transition: 0.1s ease;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 1px;
+  transform: scale(1.05);
 }
-#img-search{
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-
+#img-search {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+#image-ps5-album:hover {
+  border-bottom: 3px solid rgb(0, 145, 255);
+  opacity: 1;
+  transition: 0.1s;
+}
+#image-ps5-album {
+  opacity: 0.7;
+}
+.img-ittakes-two {
+  width: 250px;
+  height: 250px;
+  background-repeat:no-repeat;
+  background-image: url(/img-5/it-takes-two-logo.png);
+  position: absolute;
+  transform: translateX(20px) translateY(-500px);
+  background-position: center;
+  background-size: contain;
 }
