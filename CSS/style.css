@@ -61,8 +61,8 @@ nav a {
 
 .menu-box {
     position: absolute;
-    top: 100%; 
-    left: 0;
+    top: 40px; 
+    left: -80px;
     width: 100vw; 
     height: 0;
     background-color: white;
@@ -72,12 +72,12 @@ nav a {
     z-index: 999;
 }
 
-.menu:hover .menu-box {
-    height: 200px; 
+.menu #G:hover .menu-box {
+    height: 200px;
 }
 
 
-
+ 
 
 
 
