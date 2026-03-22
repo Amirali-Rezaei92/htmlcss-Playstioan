@@ -5,82 +5,74 @@ main {
   padding-top: 30px;
 }
 
-
 nav {
-    margin-top: 50px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 70px;
-    background-color: white;
-    z-index: 1000;
+  margin-top: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  z-index: 1000;
 }
 
 nav .nav-bar {
-    position: relative;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .nav-bar .nav-links {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin: auto;
-    list-style: none;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
 }
 
 .nav-links .menu-item {
-    position: relative;
+  position: relative;
 }
 
 nav a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-
 .menu-item .arrow {
-  
-    width: 10px;
-    margin-left: 5px;
-    transition: all 0.3s ease;
-    display: inline-block;
+  width: 10px;
+  margin-left: 5px;
+  transition: all 0.3s ease;
+  display: inline-block;
 }
 
 .menu-item:hover .arrow {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
-
 .menu-box {
-    position: absolute;
-    top: 40px; 
-    left: -80px;
-    width: 100vw; 
-    height: 0;
-    background-color: white;
-    overflow: hidden;
-    transition: height 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-    z-index: 999;
+  position: absolute;
+  top: 40px;
+  left: -80px;
+  width: 100vw;
+  height: 0;
+  background-color: white;
+  overflow: hidden;
+  transition: height 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  z-index: 999;
 }
 
 .menu #G:hover .menu-box {
-    height: 200px;
+  height: 200px;
 }
 
-
- 
-
-
-
+/*main*/
 
 .img-logo {
   width: 60px;
@@ -98,36 +90,38 @@ nav a {
   height: 50px;
   background-image: url(/img-5/returnal-hero-banner-logo.png);
   position: absolute;
-  top: 250px;
+  top: 270px;
   left: 30px;
   background-position: center;
   background-size: contain;
 }
-#image-list-game:hover {
+
+#image-list-game div:hover {
   border: 3px solid rgb(0, 145, 255);
   border-radius: 20px;
-  transition: 0.1s ease;
+  transition: 0.3s ease;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
   padding: 1px;
-  transform: scale(1.05);
+  transform: scale(1);
 }
 #img-search {
   width: 40px;
   height: 40px;
   margin-left: 10px;
 }
-#image-ps5-album:hover {
+#image-ps5-album div:hover {
   border-bottom: 3px solid rgb(0, 145, 255);
   opacity: 1;
-  transition: 0.1s;
+  transform: scale(1.2);
+  transition: 0.5s;
 }
-#image-ps5-album {
+#image-ps5-album div {
   opacity: 0.7;
 }
 .img-ittakes-two {
   width: 250px;
   height: 250px;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-image: url(/img-5/it-takes-two-logo.png);
   position: absolute;
   top: 0px;
@@ -136,11 +130,29 @@ nav a {
   background-size: contain;
 }
 
-
-
-
-
-
-
-
-
+.images-nuovo-uscite img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.button-baner2 {
+  top: 430px;
+  left: 20px;
+  border-radius: 20px;
+  height: 40px;
+}
+.text-baner2 {
+  top: 360px;
+  left: 20px;
+  width: 350px;
+  font-size: 12px;
+}
+.head-baner2 {
+  top: 210px;
+  left: 20px;
+  width: 400px;
+}
+.head-PS5 {
+  font-size: 14px;
+  color: rgb(10, 129, 214);
+}
